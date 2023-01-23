@@ -508,6 +508,113 @@ html {
       padding-top: 0 !important;
     }
   }
+
+  
+/* --------- */
+/* Projects */
+/* --------- */
+.project-section {
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.project-card-view {
+  box-shadow: 0 4px 5px 3px rgb(196, 183, 1) !important;
+  /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
+  box-shadow: 0 4px 5px 3px rgb(255, 251, 1) !important;
+}
+
+.blog-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.blog-card-view {
+  background-color: transparent !important;
+  box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
+  color: white !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+}
+
+.blog-link {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.blog-link:hover {
+  cursor: pointer !important;
+}
+
+.blog-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+}
+
+.card-img-top {
+  padding: 20px !important;
+  opacity: 0.8 !important;
+  border-radius: 10px !important;
+}
+
+.blog-img {
+  padding: 0px !important;
+  opacity: 0.8 !important;
+  border-radius: 0px !important;
+}
+
+.btn-primary {
+  /* color: #fff !important; */
+  color: rgb(29, 29, 29) !important;
+  background-color: #eeff00 !important;
+  border-color: #eeff00 !important;
+  /* background-color: #623686 !important;
+  border-color: #623686 !important; */
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #ffee00 !important;
+  border-color: #ffee00 !important;
+  /* background-color: #6d20c5d7 !important;
+  border-color: #6d20c5d7 !important; */
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.project-heading {
+  color: white !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+
   /* --------- */
   /* Resume */
   /* --------- */
