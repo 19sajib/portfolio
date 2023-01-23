@@ -327,7 +327,7 @@ html {
     position: relative;
     padding-bottom: 70px !important;
     padding-top: 70px !important;
-    /* background-image: var(--image-gradient), url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701456819.jpg'); */
+    /* background-image: var(--image-gradient), url('./assets/home-bg.jpg'); */
   }
   
   .home-about-description {
