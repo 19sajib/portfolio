@@ -13,6 +13,7 @@ import Resume from './pages/Resume'
 import Contact from './pages/Contact'
 
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 import "./style.css";
 import "./App.css";
@@ -31,6 +32,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
