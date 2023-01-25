@@ -7,12 +7,14 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import Particle from '../components/Particle'
+import Particle from '../components/Particle';
+import ContactForm from '../components/Contact/Contact';
 
 const Contact = () => {
   return (
     <Container style={{padding: '60px'}}>
       <Particle />
+      <ContactForm />
     <Row>
               <Col md={12} className="home-about-social">
                 <h1>FIND ME ON</h1>
