@@ -160,8 +160,8 @@ html {
   }
   
   .logo {
-    height: 1.4em !important;
-    width: 2.5em !important;
+    height: 2em !important;
+    width: 3.5em !important;
   }
   
   .navbar-nav .nav-link {
@@ -415,7 +415,10 @@ html {
     padding-bottom: 8px !important ;
   }
   .footer-copywright {
+    display: flex;
     text-align: center !important;
+    align-items: center;
+    justify-content: center;
   }
   
   .footer-body {
