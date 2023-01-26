@@ -15,6 +15,7 @@ import Contact from './pages/Contact'
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader"
+import ScrollToTop from "./components/ScrollToTop"
 
 import "./App.css";
 import "./style.css";
@@ -36,6 +37,7 @@ function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/skillset" element={<Skill />} />
