@@ -20,29 +20,29 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                Hi There, I am <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                from <span className="yellow"> Dhaka, Bangladesh</span>
+                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
+                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
                 <br />
                 <br />
-                I have completed my Bachelor in Computer Science and Engineering in 2021
+                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
                 <br />
                 <br />
-                  I am a
-                  <b className="yellow"> Full-Stack </b>developer 
-                  who loves to challenge myself regularly with new problems.
+                  As a
+                  <b className="yellow"> Full-Stack </b>developer,  
+                  I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
-                  <br />I am fluent in 
-                    <b className="yellow"> Javascript </b>
-                  and also have knowledge of classics like C, Java, Python,
+                  <br />I am proficient in
+                    <b className="yellow"> Javascript, </b>
+                    as well as have knowledge in programming languages such as C, Java, Python,
                   <b className="yellow"> GraphQL, and Solidity.</b>
                   <br />
                   <br />
-                  Whenever possible, I also apply my passion for developing products
-                  with <b className="yellow">Node.js, Express.js</b> and
+                  I have a passion for working
+                  with <b className="yellow">Node.js, MongoDB,</b> and
                   <i>
                     <b className="yellow">
                       {" "}
-                      Modern Javascript Library and Frameworks
+                      modern Javascript libraries and frameworks
                     </b>
                   </i>
                   &nbsp; like
@@ -51,10 +51,10 @@ const About = () => {
                   </i>
                   <br />
                   <br />
-                  I am passionate about building new
+                  I am also interested in building new
                   <i>
-                    <b className="yellow"> Web Technologies and Products </b>
-                    and also in areas related to 
+                    <b className="yellow"> Web Technologies and Products, </b>
+                    as well as exploring areas related to
                     <b className="yellow"> Artificial Intelligence.</b>
                   </i>
                   <br />
@@ -71,7 +71,7 @@ const About = () => {
               <Col md={12} className="home-about-social">
                 <h1>FIND ME ON</h1>
                 <p>
-                  Feel free to <span className="yellow">connect </span>with me
+                Please don't hesitate to reach out to me and <span className="yellow">connect.</span>
                 </p>
                 <ul className="home-about-social-links">
                   <li className="social-icons">

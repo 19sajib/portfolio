@@ -25,7 +25,7 @@ const Projects = () => {
               imgPath={lift}
               isBlog={false}
               title="Lift-Buddy"
-              description="It's an Online Ride Sharing Site, Designed with a responsive frontend, alongside an admin panel using React, and Material‑UI. Implemented Google Maps API to give user google map directions. Users can perform CURD operations on profiles and posts. Users can confirm and cancel a ride from a post. Users can message each other after confirming the ride. Also, Users can reset their password. Backend running on Node Express Server. Used MongoDB for the database."
+              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
               ghLink="https://github.com/19sajib/lift-buddy"
             />
           </Col>
@@ -35,7 +35,7 @@ const Projects = () => {
               imgPath={project}
               isBlog={false}
               title="Social Media"
-              description="A responsive interface has been implemented using Reactjs and CSS where users can perform CRUD activities on their profiles and posts. Users can follow other users and like or dislike following users’ posts. Users get suggestions for following other users. User only sees post from their following users. Also, users only can chat with their following users. The backend was driven by Nodejs and Expressjs."
+              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
               ghLink="https://github.com/19sajib/social-media"
             />
           </Col>
@@ -45,8 +45,7 @@ const Projects = () => {
               imgPath={kickstart}
               isBlog={false}
               title="E‑Commerce Website"
-              description="Built REST API using Nodejs and Expressjs to perform CRUD operation for the user's profile, product, and admin panel.
-              Designed interface for the user with the ability to perform CRUD operation with the product. Also, completed the full purchase process. Designed an admin panel with the ability to CRUD users and products, also used a chart to show statistics. Implemented stripe API to receive Payment from customers. MongoDB and Firebase have been used for the database."
+              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
               ghLink="https://github.com/19sajib/mern-stack-ecommerce"
             />
           </Col>
@@ -56,7 +55,7 @@ const Projects = () => {
               imgPath={pg}
               isBlog={false}
               title="Blog Website"
-              description="Implemented RESTful API server for blogging application using Nodejs & Expressjs. Fetched data from the backend API server and displayed it on a responsive interface that is built using React, Redux, and styled‑components."
+              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
               ghLink="https://github.com/19sajib/mern-blog-app"
             />
           </Col>
@@ -66,7 +65,7 @@ const Projects = () => {
               imgPath={krypto}
               isBlog={false}
               title="Project Krypto"
-              description="Project Krypto is a Web 3 Project where An Ethereum Smart Contract has been created using Solidity and has implemented the feature of sending Ethereum where users can interact with their Metamask Wallet."
+              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
               ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
               demoLink="https://project-krypto.netlify.app/"
             />
@@ -77,7 +76,7 @@ const Projects = () => {
               imgPath={kickstart}
               isBlog={false}
               title="Solidity Kickstart"
-              description="Project Krypto is a Web 3 Project where An Ethereum Smart Contract has been created using Solidity and has implemented all the functionality of Kickstart. Users can interact with their Metamask Wallet and transfer their Ethereum."
+              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
               ghLink="https://github.com/19sajib/Solidity-Kickstart"
             />
           </Col>
