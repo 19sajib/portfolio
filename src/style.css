@@ -1,18 +1,16 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904)
+      rgb(5, 8, 40), rgb(1, 4, 39)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863)
+      rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
     );
   
     --imp-text-color: #c770f0;
-    --imp-bold-text-color: #ffee00;
+    --imp-bold-text-color: #7500fa;
   }
   
   .yellow {
@@ -102,7 +100,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #ffee00 !important;
+    background-color: #7500fa !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -199,7 +197,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #ffee00;
+    background: #6e00fd;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -286,18 +284,18 @@ html {
   }
   
   .main-name {
-    color: #c770f0;
+    color: #7500fa;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #ffee00 !important;
+    color: #7500fa!important;
     /* color: #be6adf !important; */
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #ffee00 !important;
+    color: #7500fa !important;
   }
   
   @media (max-width: 767px) {
@@ -468,12 +466,12 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgba(255, 251, 0, 0.637) !important;
+    border: 1.7px solid rgb(89, 0, 190) !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(251, 255, 0, 0.137) !important;
+    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -487,7 +485,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(255, 217, 0, 0.883) !important;
+    border: 2.2px solid rgba(117, 0, 250, 1) !important;
   }
   .tech-icon-images {
     padding: 20px !important;
@@ -532,7 +530,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgb(196, 183, 1) !important;
+  box-shadow: 0 4px 5px 3px rgb(72, 0, 155) !important;
   /* box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important; */
   color: white !important;
   background-color: transparent !important;
@@ -544,7 +542,7 @@ html {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   /* box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important; */
-  box-shadow: 0 4px 5px 3px rgb(255, 251, 1) !important;
+  box-shadow: 0 4px 5px 3px rgba(117, 0, 250, 1) !important;
 }
 
 .blog-card {
@@ -592,17 +590,17 @@ html {
 
 .btn-primary {
   /* color: #fff !important; */
-  color: rgb(29, 29, 29) !important;
-  background-color: #eeff00 !important;
-  border-color: #eeff00 !important;
+  color: rgb(24, 2, 44) !important;
+  background-color: #7500fa !important;
+  border-color: #7500fa !important;
   /* background-color: #623686 !important;
   border-color: #623686 !important; */
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #ffee00 !important;
-  border-color: #ffee00 !important;
+  background-color: #7500fa !important;
+  border-color: #7500fa !important;
   /* background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important; */
 }
