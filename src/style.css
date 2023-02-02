@@ -9,7 +9,7 @@ html {
       rgba(5, 8, 40, 0.87), rgba(1, 4, 39, 0.925)
     );
   
-    --imp-text-color: #c770f0;
+    --imp-text-color: #7500fa;
     --imp-bold-text-color: #7500fa;
   }
   
@@ -79,7 +79,7 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #1b1a2ea9 !important;
+    background-color: #38007731 !important;
     transition: all 0.3s ease-out 0s !important;
     box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
     backdrop-filter: blur(15px) !important;
@@ -407,7 +407,7 @@ html {
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: rgb(1, 6, 36);
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
