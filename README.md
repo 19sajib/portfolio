@@ -33,6 +33,7 @@
 </table>
 
 <br/>
+
 ## Features
 
 **📖 Multi-Page Layout**
@@ -42,6 +43,7 @@
 **📱 Fully Responsive**
 
 <br />
+
 ## 🚀 How to get started?
 
 Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
