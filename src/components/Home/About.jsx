@@ -80,6 +80,7 @@ const About = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
+                      aria-label="github"
                     >
                       <AiFillGithub />
                     </a>
@@ -90,6 +91,7 @@ const About = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
+                      aria-label="twitter"
                     >
                       <AiOutlineTwitter />
                     </a>
@@ -100,6 +102,7 @@ const About = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
+                      aria-label="linkedin"
                     >
                       <FaLinkedinIn />
                     </a>
@@ -110,6 +113,7 @@ const About = () => {
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"
+                      aria-label="instagram"
                     >
                       <AiFillInstagram />
                     </a>

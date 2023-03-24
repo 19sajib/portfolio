@@ -29,6 +29,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="github"
                 >
                   <AiFillGithub />
                 </a>
@@ -39,6 +40,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="twitter"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -49,6 +51,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="linkedin"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -59,6 +62,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="instagram"
                 >
                   <AiFillInstagram />
                 </a>
