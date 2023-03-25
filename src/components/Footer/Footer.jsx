@@ -15,10 +15,10 @@ const Footer = () => {
       <Container fluid className="footer">
         <Row>
           <Col md="4" className="footer-copywright">
-            <h3>Dedicated to creating impactful solutions!</h3>
+            <span>Dedicated to creating impactful solutions!</span>
           </Col>
           <Col md="4" className="footer-copywright">
-            <h3>Copyright © {year}</h3>
+            <span>Copyright © {year}</span>
             <img src={logo} className="img-fluid logo" alt="brand" />
           </Col>
           <Col md="4" className="footer-body">
@@ -29,6 +29,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="github"
                 >
                   <AiFillGithub />
                 </a>
@@ -39,6 +40,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="twitter"
                 >
                   <AiOutlineTwitter />
                 </a>
@@ -49,6 +51,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="linkedin"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -59,6 +62,7 @@ const Footer = () => {
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
+                  aria-label="instagram"
                 >
                   <AiFillInstagram />
                 </a>
