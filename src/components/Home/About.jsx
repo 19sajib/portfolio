@@ -1,13 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import LaptopImg from "../../assets/home-main.svg";
+import LaptopImg from "../../assets/home-main.png";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaSchool, FaGlobe } from "react-icons/fa";
 
 
 const About = () => {
@@ -20,44 +18,24 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Dr. Sushil Kumar Singh </span>
+                 and I'm working at <span className="yellow"> NIT Rourkela, India.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I am professionally employed as a <span className="yellow"> Food Engineering Technologist </span>in <span className="yellow"> Institute of Dairy Ingredient Processing</span> in USA before joining NIT Rourkela as an<span className="yellow"> Assistant Professor</span> in 2018.
                 <br />
                 <br />
-                  As a
-                  <b className="yellow"> Full-Stack </b>developer,  
-                  I enjoy tackling new challenges and continuously expanding my skillset.
+                  I completed my
+                  <b className="yellow"> Phd </b> in <b className="yellow"> Food Process Engineering</b> from <b className="yellow"> South Dakota State University</b>   
+                  , USA in 2016 and was an R&D personnel for Vets Plus Inc., in Wisconsin, USA till early 2017.
                   <br />
-                  <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
-                  <br />
-                  <br />
-                  I have a passion for working
-                  with <b className="yellow">Node.js, MongoDB,</b> and
-                  <i>
-                    <b className="yellow">
-                      {" "}
-                      modern Javascript libraries and frameworks
-                    </b>
-                  </i>
-                  &nbsp; like
-                  <i>
-                    <b className="yellow"> React.js</b>
-                  </i>
+                  <br />I received
+                    <b className="yellow"> “Netaji Subhas-ICAR International Fellowship 2011-12” </b>
+                    to pursue his PhD research in USA. I did my M.tech in 
+                  <b className="yellow"> Food Process Engineering</b> from <b className="yellow"> IIT kharagpur</b> in 2011 and had received<b className="yellow"> DAAD Fellowship </b>to conduct my Master`s research in<b className="yellow"> KIT, Germany</b>.
                   <br />
                   <br />
-                  I am also interested in building new
-                  <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
-                    as well as exploring areas related to
-                    <b className="yellow"> Artificial Intelligence.</b>
-                  </i>
-                  <br />
+                 
                   
                 </p>
               </Col>
@@ -76,29 +54,29 @@ const About = () => {
                 <ul className="home-about-social-links">
                   <li className="social-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://www.nitrkl.ac.in/FP/~singhsk/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
-                      aria-label="github"
+                      aria-label="nitrkl"
                     >
-                      <AiFillGithub />
+                      <FaSchool />
                     </a>
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://scholar.google.co.in/citations?user=GMgjO2YAAAAJ=en"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
-                      aria-label="twitter"
+                      aria-label="google"
                     >
-                      <AiOutlineTwitter />
+                      <FaGlobe />
                     </a>
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="http://www.linkedin.com/in/sushil-singh-phd-6639641a"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -109,13 +87,13 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://www.facebook.com/sksingh32325"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"
-                      aria-label="instagram"
+                      aria-label="facebook"
                     >
-                      <AiFillInstagram />
+                      <AiFillFacebook />
                     </a>
                   </li>
                 </ul>

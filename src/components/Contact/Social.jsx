@@ -1,11 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillFacebook,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaSchool, FaGlobe } from "react-icons/fa";
 import './Social.css'
 
 const Social = () => {
@@ -22,27 +20,27 @@ const Social = () => {
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://www.nitrkl.ac.in/FP/~singhsk/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
                     >
-                      <AiFillGithub />
+                      <FaSchool />
                     </a>
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://scholar.google.co.in/citations?user=GMgjO2YAAAAJ=en"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
                     >
-                      <AiOutlineTwitter />
+                      <FaGlobe />
                     </a>
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="http://www.linkedin.com/in/sushil-singh-phd-6639641a"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -52,12 +50,12 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://www.facebook.com/sksingh32325"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color contact-social-icons"
                     >
-                      <AiFillInstagram />
+                      <AiFillFacebook />
                     </a>
                   </li>
                 </ul>
