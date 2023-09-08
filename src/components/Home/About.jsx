@@ -20,11 +20,11 @@ const About = () => {
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
                 <p className="home-about-body">
-                 Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
-                 and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
+                 Hi, my name is <span className="yellow">Zach Albone </span>
+                 and I'm from <span className="yellow"> Ambler, Pennsylvania.</span>
                 <br />
                 <br />
-                I recently graduated with a Bachelor's degree in Computer Science and Engineering in 2021.
+                I am a senior at Arcaida University and will graduate with a degree in Computer science.
                 <br />
                 <br />
                   As a
@@ -32,9 +32,9 @@ const About = () => {
                   I enjoy tackling new challenges and continuously expanding my skillset.
                   <br />
                   <br />I am proficient in
-                    <b className="yellow"> Javascript, </b>
-                    as well as have knowledge in programming languages such as C, Java, Python,
-                  <b className="yellow"> GraphQL, and Solidity.</b>
+                    <b className="yellow"> Java, </b>
+                    as well as have knowledge in programming languages such as Html, Dart, Python,
+                  <b className="yellow"> and SQL.</b>
                   <br />
                   <br />
                   I have a passion for working
@@ -53,7 +53,7 @@ const About = () => {
                   <br />
                   I am also interested in building new
                   <i>
-                    <b className="yellow"> Web Technologies and Products, </b>
+                    <b className="yellow"> Games and Products, </b>
                     as well as exploring areas related to
                     <b className="yellow"> Artificial Intelligence.</b>
                   </i>
