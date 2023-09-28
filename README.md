@@ -31,6 +31,8 @@ The page will reload if you make edits.
 
 **👉 📱 Funtional Update or Changes (like add Experience, Achivement Section)**
 
+**👉 🗺️ Implement viewTransitionAPI**
+
 **👉 📖 Write Documetion For This Repo**
 
 <br />
@@ -193,6 +195,4 @@ Now submit the pull request.
 Feel free to contribute to this repo.
 
 ### Show some ❤️&nbsp; by giving the star :star: to this repository!!
-<h1 align=center> 🧠 Happy Hacking 🧠 </h1>
-
 <h1 align=center> 🧠 Happy Hacking 🧠 </h1>
