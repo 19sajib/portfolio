@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import logo from "../../assets/sLogo.png";
 
 const Footer = () => {
@@ -58,13 +58,13 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/19sajib"
+                  href="https://leetcode.com/19sajib/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
-                  aria-label="instagram"
+                  aria-label="leetcode"
                 >
-                  <AiFillInstagram />
+                  <SiLeetcode />
                 </a>
               </li>
             </ul>

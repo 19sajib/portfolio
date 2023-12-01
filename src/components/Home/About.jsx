@@ -4,10 +4,11 @@ import LaptopImg from "../../assets/home-main.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+
 
 
 const About = () => {
@@ -109,13 +110,13 @@ const About = () => {
                   </li>
                   <li className="social-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://leetcode.com/19sajib/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour home-social-icons"
                       aria-label="instagram"
                     >
-                      <AiFillInstagram />
+                      <SiLeetcode />
                     </a>
                   </li>
                 </ul>

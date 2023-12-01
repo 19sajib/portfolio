@@ -2,10 +2,10 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiOutlineTwitter
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import './Social.css'
 
 const Social = () => {
@@ -52,12 +52,12 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="hhttps://leetcode.com/19sajib/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color contact-social-icons"
                     >
-                      <AiFillInstagram />
+                      <SiLeetcode />
                     </a>
                   </li>
                 </ul>
